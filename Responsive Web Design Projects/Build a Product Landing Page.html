@@ -1,0 +1,179 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<style> 
+     #nav-bar{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 50px;
+    background-color: purple;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 5px 5px pink;}
+    #nav-link{
+    display: flex;
+    width: 80%;
+      justify-content: space-around;}
+    #nav-link a{
+    color: black;
+    text-decoration: none;
+    }
+  @media (min-width: 600px) {
+      #container {
+          background-color: red;
+      }
+  }
+  #pricing{
+    padding: 50px 0;
+    background: linear-gradient(to right, white , #d6e5ff);
+    display: flex;
+    justify-content: center;
+  }
+  
+  
+  .price-card{
+    width: 180px;
+    height: 300px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    background-color: white;
+    display: flex;
+    flex-flow: column;
+  }
+  
+  .price-card-header{
+    background-color: #008CBA;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+    padding: 15px 0px;
+    text-align: center;
+  }
+  
+  .price-card-content{
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    align-items: center;
+    line-height: 1.5em;
+  }
+  
+  .price-text{
+    font-weight: bold;
+    font-size: 20px;
+    margin: 10px 0;
+    color: red;
+  }
+  .price-btn{
+    margin: 20px 0;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px; 
+    color: black;
+    background-color: gold;
+    }
+    
+    </style>
+
+
+<header id="header">
+  <h1 id="title">Used Tesla Cars</h1>
+  <nav id="nav-bar">
+    <img id="header-img" src="https://www.google.com/url?sa=i&url=https%3A%2F%2F1000marcas.net%2Flogo-tesla%2F&psig=AOvVaw157ZAumOyXZ5z3dx2qMjE_&ust=1596195706778000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCIi09s3y9OoCFQAAAAAdAAAAABAD" alt="logo tesla">
+      <div id="nav-link">
+        <a href="#models" class="nav-link">Car Model</a>
+        <a href="#about"  class="nav-link">About us</a>
+        <a href="#pricing" class="nav-link">Pricing</a>
+      </div>
+  </nav>
+</header>
+
+<main>
+  <div id="models">
+    <div class="content">
+      <h2 style="color: FF3232;">Car Models That Are For Sale</h2>
+      <hr>
+     <ul style="text-align: left;">
+       <li><b>Tesla Cybertruck:</b>The Tesla Cybertruck is Tesla's electric van, a recently revealed vehicle that will go into production in late 2021 and for which more than 250,000 reservations have already been reported since it was officially unveiled.</li><br>
+       <li><b>Tesla Model 3:</b>The Tesla Model 3 is the third member of Tesla Motors' range of 100% electric vehicles. This new model was born with the vocation of an affordable vehicle within the Tesla family, which is why from the beginning it has accumulated a large number of orders; In the United States it can be purchased for just over $ 40,000, which makes it the cheapest option for the American manufacturer.</li><br>
+       <li><b>Tesla Roadster:</b>El Tesla Roadster fue uno de los primeros automóviles que comercializó la marca de Elon Musk. Fue allá por el año 2008, y por aquel entonces se convertía en un automóvil pionero al importar la tecnología de propulsión eléctrica a un vehículo deportivo. El resultado fue bastante llamativo, y logró un buen número de ventas, sobre todo en Estados Unidos.</li><b>
+       </ul>
+     </div>
+    </div>
+  <!---AÑADIR EL VIDEO--->
+   <div id="about">
+     <div class="content">
+       <h2>TESLA VIDEO</h2>
+       <iframe id="video" width="560px" height="315px" src="https://www.youtube.com/watch?v=ijcAwrWMi0g" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+     </div>
+    </div>
+    <!---PRECIOS-->
+    
+    <div id="pricing">
+      <div class="price-container-content">
+        <div class="price-card">
+          <div class="price-card-header">Tesla Cybertruck</div>
+          <div class="price-card-content">
+            <span class="price-text">$36.221</span>
+            Tracción total.<br>
+            0-60 mph (0-96 km/h): 2,9 segundos.<br>
+            Cuarto de milla: 10,8 segundos.<br>
+            Velocidad máxima: 209 km/h.<br>
+            Autonomía: más de 800 km.
+            <button class="price-btn">Buy</button>
+          </div>
+        </div>
+       <div class="price-card">
+        <div class="price-card-header">Tesla Model 3</div>
+        <div class="price-card-content">
+          <span class="price-text">$25000</span>
+          Tracción total.<br>
+          0-60 mph (0-96 km/h): 1,9 segundos.<br>
+          Cuarto de milla: 10,8 segundos.<br>
+          Velocidad máxima: 209 km/h.<br>
+          Autonomía: más de 800 km.
+          <button class="price-btn">Buy</button>
+        </div>
+      </div>
+      <div class="price-card">
+        <div class="price-card-header">Tesla Roadster</div>
+        <div class="price-card-content">
+          <span class="price-text">$50000</span>
+          Tracción total.<br>
+          0-60 mph (0-96 km/h): 1,9 segundos.<br>
+          Cuarto de milla: 10,8 segundos.<br>
+          Velocidad máxima: 209 km/h.<br>
+          Autonomía: más de 800 km.
+          <button class="price-btn">Buy</button>
+        </div>
+      </div>
+    </div>
+  </div>
+<!--INPUT PARA CONTACTAR Y FOOTER-->
+
+   <form id="form" action="https://www.freecodecamp.com/kvo189" target="_blank">         <h2>Contact Us</h2>
+    <input type="email" id="email" name="email" placeholder="Enter your email address"><br>
+    <input type="submit" id="submit" value="Get Started">
+  </form>
+</main>
+
+<footer>
+  <div id="page-footer">
+    <ul>
+      <li><a href="#">Privacy</a></li>
+      <li><a href="#">Terms</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+    <span>Copyright 2020, AndresJiAr</span>
+  </div>
+  <div id='credit'>
+    <hr>
+    <p>Written by <a href="https://github.com/AndresJiAr" target="_blank">AndresJiAr</a>.</p>
+    <div>
+</footer>
+            
+    
+    
+      
