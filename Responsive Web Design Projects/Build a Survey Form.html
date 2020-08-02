@@ -1,0 +1,89 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+
+
+<div id="container">
+  <form id="survey-form">
+    <h1 id="title">Survey of Covid-19 </h1>
+    <p id="description">This is a survey of what do you about Covid-19</p>
+    
+  <fieldset>
+    <!-- LOS DATOS PERSONALES PARA RELLENAR (INPUT-LABEL)-->
+  <legend>Personal Details</legend>   
+    <div>
+      <label id="name-label" for="name">Name:</label>
+      <input type="text"  id="name" name="username" placeholder="Your name" required>  </div>
+     <div> 
+        <label id="addres-label" for="address">Address:</label>
+        <input type="text" required id="address" name="address" placeholder="Enter your address here">  </div>
+    <div>
+      <label id="email-label" for="email">Email:</label>
+      <input type="email" required id="email" name="user-email" placeholder="Enter email here">   </div>
+    <div>
+      <label id="number-label" for="phone-number">Phone Number:</label>
+      <input type="number" required id="number" name="phone-number" placeholder="Enter 10 digit number"  min="1" max="10">
+    
+   <!--RADIO BUTTONS PARA SELECCIONAR GENERO-->
+      
+      
+    <div>
+      <label for="Gender">Gender</label>
+      <p>
+      <input type="radio" name="gender" value="male" > Male<br>
+      <input type="radio" name="gender" value="Female" > Female<br>
+      </p>
+      </div>
+        <label for="date-label">Date of Proposed Outing:</label>
+        <input type="date" name="day">
+      </fieldset>
+    
+    <!--CHECKBOX SOBRE MEDIDAS DE HIGIENE-->
+    
+      <fieldset>
+        
+         <legend>Security Measures</legend>
+        <p>
+          <input type="checkbox" name="wash-hands" value="wash-hands"> I wash my hands frequently.<br>
+          <input type="checkbox" name="hidroalcholic-gel" value="hidroalcholic-gel"> 
+I use hydroalcoholic gel. <br>
+          <input type="checkbox" name="safe-distance" value="safe-distance"> I keep a safe distance from people who cough or sneeze. <br>
+         <input type="checkbox" name="touch" value="touch"> I do not touch my eyes, nose or mouth. <br>
+          <input type="checkbox" name="mask" value="mask"> I use a mask when it is not possible to maintain physical distance. <br>
+           <input type="checkbox" name="home" value="home"> If I'm not feeling well, I stay home. <br>
+          </p>
+    </fieldset>
+    <!--DROPDOWNS EDAD Y ESTUDIOS-->
+    <fieldset>
+      <div>
+      <label for="age">What group do you belong to?</label>
+        <select id="dropdown">
+           <option value="kidd">Kidd (-18)</option>
+           <option value="adult">Adult(=+18)</option>
+           <option value="retired">retired(+65)</option>
+          </select>
+      <label for="politics">Education Level Completed:</label>
+        <select id="dropdown2">
+          <option value="University">University</option>
+          <option value="College">College</option>
+          <option value="Secondary">High School</option>  
+          <option value="None">None</option>
+          </select>
+      </div>
+  </fieldset>
+        <!--TEXT AREAS PARA OPINION PERSONAL---->
+      <fieldset>
+        <div>
+        <legend>Personal Opinion</legend>
+       <label for="msg"></label>
+      <p>Give me your personal opinion on how COVID-19 emerged.</p> 
+      <textarea id="msg" name="user_message" rows="4" cols="50" placeholder="Enter Your Opinion Here"></textarea>   </div>
+    </fieldset>
+    
+    <!--BOTON SUBMIT PARA ENVIAR LA ENCUESTA-->
+     <div id="submitbutton">
+    <button type="submit" id="submit">Send your survey</button>   </div>
+
+</form>
+  </div>
+          
+          
