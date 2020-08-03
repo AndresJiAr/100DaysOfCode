@@ -1,0 +1,1 @@
+var myArray = ["Dogs", 2];
