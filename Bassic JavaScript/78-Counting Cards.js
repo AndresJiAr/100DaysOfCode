@@ -26,7 +26,7 @@ switch(card) {
     return count + " Hold";
   }
 
-  return count + " " + holdbet;
+ 
   // Only change code above this line
 }
 
