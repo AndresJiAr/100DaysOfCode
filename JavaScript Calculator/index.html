@@ -1,32 +1,96 @@
 <div class="text-center">
-    <h1>JavaScript Calculator</h1>
-  </div>
-  <div class="calcOutput">
-    <span id="steps">0</span>
-    <hr/>
-  </div>
-  <div class= "text-center" id="calculator">
-    <a class="btn btn-danger" id="deleteAll">AC</a>
-    <a class="btn btn-warning" id="backOne">CE</a> 
-    <a class="btn btn-info" id="/">/</a>
-    <a class="btn btn-info" id="*">*</a>
-    <br />
-    <a class="btn btn-primary" id="7">7</a>
-    <a class="btn btn-primary" id="8">8</a>
-    <a class="btn btn-primary" id="9">9</a>
-    <a class="btn btn-info" id="-">-</a>
-    <br/>
-    <a class="btn btn-primary" id="4">4</a>
-    <a class="btn btn-primary" id="5">5</a>
-    <a class="btn btn-primary" id="6">6</a>
-    <a class="btn btn-info" id="+">+</a>
-    <br/>
-    <a class="btn btn-primary" id="1">1</a>
-    <a class="btn btn-primary" id="2">2</a>
-    <a class="btn btn-primary" id="3">3</a>
-    <a class="btn btn-info" id=".">.</a>
-    <br/>
-    <a class="btn btn-primary bigButton" id="0">0</a>
-    <a class="btn btn-info bigButton" id="total">=</a>
-    </div>  
-  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  <h1>JavaScript Calculator</h1>
+</div>
+<div class="calcOutput">
+  <span id="steps">0</span>
+  <hr/>
+</div>
+<div class= "text-center" id="calculator">
+  <a class="btn btn-danger" id="clear">AC</a>
+  <a class="btn btn-warning" id="backOne">CE</a> 
+  <a class="btn btn-info" id="divide">/</a>
+  <a class="btn btn-info" id="multiply">*</a>
+  <br />
+  <a class="btn btn-primary" id="seven">7</a>
+  <a class="btn btn-primary" id="eight">8</a>
+  <a class="btn btn-primary" id="nine">9</a>
+  <a class="btn btn-info" id="substract">-</a>
+  <br/>
+  <a class="btn btn-primary" id="four">4</a>
+  <a class="btn btn-primary" id="five">5</a>
+  <a class="btn btn-primary" id="six">6</a>
+  <a class="btn btn-info" id="add">+</a>
+  <br/>
+  <a class="btn btn-primary" id="one">1</a>
+  <a class="btn btn-primary" id="two">2</a>
+  <a class="btn btn-primary" id="three">3</a>
+  <a class="btn btn-info" id="decimal">.</a>
+  <br/>
+  <a class="btn btn-primary bigButton" id="zero">0</a>
+  <a class="btn btn-info bigButton" id="equals">=</a>
+  </div>  
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  <style>
+ body {
+  background: black;
+  margin:10%;
+  top: 50%;
+  left: 50%;
+  
+}
+h1 {
+  color:white;
+  font-family:"Amatic";
+  color: white;
+  text-shadow: 5px 1px 5px darkblue, 0 0 25px blue, 0 0 69px gold;
+  font-size:62px;
+}
+#calcOutput {
+  box-shadow: 0px 0px 9px  5px  #ddffed;
+  background-color: black;
+  color:red;
+  width: 279px;
+  height:80px;
+  border-top-left-radius:1em;
+  border-top-right-radius:1em;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top:40px;
+  padding-top:11px;
+  text-align:left;
+  padding-right:19px;
+  padding-left:12px;
+
+}
+#calculator {
+  box-shadow: 0px 0px 9px  5px  #ddffed;
+  width: 279px;
+  border-bottom-left-radius:1em;
+  border-bottom-right-radius:1em;
+  margin-right:auto;
+  margin-left:auto;
+  padding-bottom:10px;
+  padding-top:15px;
+
+}
+#steps {
+  font-family: Droid Sans Mono;
+  width: 410px;
+  text-align: right;
+  font-size: 52px;
+  margin:-9px;
+  padding-top: 19%;
+}
+a{
+  margin:-2px;
+  width: 66px;
+  height: 65px;
+
+}
+.btn{
+  font-size:30px;
+  background-color:white;
+  cursor: pointer;
+}
+    
+  </style>
