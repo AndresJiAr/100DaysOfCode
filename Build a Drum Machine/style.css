@@ -1,0 +1,62 @@
+body {
+    background-color: #50fc00;
+  }
+  
+  h2 {
+    margin-top: 2em;
+    color: black;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+  }
+  
+  .centerColumn {
+    float: none;
+    margin: auto;
+  }
+  
+  .mainContainer {
+    border: 3px solid orange;
+    border-radius: 3px;
+    width: 100%;
+    overflow: auto;
+    height: auto;
+    margin: 3em auto;
+    background-color: #3e382f;
+  }
+  
+  .display {
+    position: relative;
+    width: 50%;
+    height: 50px;
+    margin: auto;
+    margin-top: 0.5em;
+    border: 2px solid grey;
+    background-color: #343330;
+    color: white;
+    line-height: 3em;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+  }
+  
+  .audio-btn,
+  .audio-btn:focus {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    color: black;
+    background-color: #ebcc6f;
+    height: 50px;
+    padding: 0;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+  }
+  
+  .btn.btn-primary:active,
+  .audio-btn:active,
+  .audio-btn:hover,
+  .buttonActiveColor {
+    background-color: red;
+  }
+  
+  .drum-pad {
+    width: 32%;
+  }
+  
+
+  
