@@ -1,0 +1,20 @@
+
+.graph{
+    background-color: #aaa;
+    display: block;
+    margin: auto;
+    background-color:#B16C6C;
+  }
+  .data-year{
+    background-color: black;
+  }
+  div.tooltip {	
+      position: absolute;			
+              
+      padding: 10px;				
+      font: 12px Comic Sans MS;		
+      background: yellowgreen;	
+      border: 0px;		
+      border-radius: 8px;			
+      pointer-events: none;			
+  }
