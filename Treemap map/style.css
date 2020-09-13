@@ -1,0 +1,41 @@
+
+body{
+    background-image: radial-gradient( circle 879px at 10.4% 22.3%, rgba(255,235,238,1)0%, rgba(186,255,245,1)93.6%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 10vh;
+    flex-direction: column;
+  font-family: Comic Sans MS;
+    
+  }
+  
+  h1{
+    margin-bottom: 0;
+    
+  }
+  svg{
+    border: 2px solid black;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.4);
+    background-color: #fff;
+  }
+  container{
+    position: relative
+  }
+  .tooltip{
+    background-color:#000;
+    border-radius: 10px;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.4);
+    color: #fff;
+    display: none;
+    position: absolute;
+    z-index: 100;
+    text-align: center;
+    opacity: 0.8;
+  }
+  .tooltip.show{
+    display: block;
+  }
+  .tooltip p{
+    margin: 5px;
+  }
