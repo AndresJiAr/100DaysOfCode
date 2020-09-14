@@ -1,0 +1,48 @@
+$main-font: Tahoma, monospace, sans-serif;
+
+$font-size-title: 2em;
+$font-size-desc: 1.2em;
+$font-size-tile: 0.5em;
+$font-size-legend: 10px;
+
+$tooltip-border-color: #615e54;
+$tooltip-bg-color: #e5e2e0;
+
+body {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: 0;
+  overflow: hidden;
+  font-family: $main-font;
+}
+
+#tooltip {
+  position: fixed;
+  width: 150px;
+  border: 1px solid $tooltip-border-color;
+  border-radius: 10px;
+  background: $tooltip-bg-color;
+  padding: 10px;
+}
+
+#title {
+  font-size: $font-size-title;
+  font-weight: bold;
+}
+
+#description { font-size: $font-size-desc; }
+
+.tile { 
+  stroke: white; 
+  
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.tileText { font-size: $font-size-tile; }
+
+.legend-item-text { font-size: $font-size-legend; }
