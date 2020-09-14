@@ -1,0 +1,69 @@
+
+body {
+  font-family: 'Comic Sans MS', sans-serif;
+  background: #fff;
+  margin: auto;
+  text-align: center;
+  cursor: default;
+  
+}
+
+header {
+  background-color: #222;
+  line-height: 25px;
+  height: auto;
+  padding: 10px;
+  padding-bottom: 20px;
+  color: white;
+}
+
+a {
+  color: white;
+}
+
+h1 {
+  color: #323232
+}
+
+#tooltip {
+  position: absolute;
+  opacity: 0;
+  max-width: 200px;
+  word-wrap: word-break;
+  padding: 10px;
+  background-color: #025394;
+  border-radius: 5px;
+  pointer-events: none;
+  font-weight: bold;
+  
+}
+
+#svg-container-big {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#visualization {
+  margin: auto;
+  position: relative;
+}
+
+h1 {
+  margin: 0.25em;
+}
+
+.state {
+  fill: none;
+  stroke: black;
+  stroke-width: 0.5px;
+}
+
+#legend {
+  stroke-width: 21x;
+  stroke: black;
+}
+
+#legend-percent, #legend text {
+  fill: indianred;
+}
