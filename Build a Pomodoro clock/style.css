@@ -1,0 +1,59 @@
+$font: #f0f7d4;
+$background: #0984e3;
+$borders: #fc600a;
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  font-family: 'Comic Sans MS', sans-serif;
+  color: $font;
+}
+
+#root {
+  min-height: 100vh;
+  background-color: $background;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+
+#clock {
+  width: 600px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#timer {
+  border: 5px solid $borders;
+  border-radius: 20px;
+  width: 200px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  time {
+    font-size: 2em;
+  }
+}
+
+.setter-container {
+  padding: 10px;
+  display: flex;  
+}
+
+.setter {
+  padding: 10px;
+  text-align: center;
+  i, span {
+    padding: 10px;    
+  }
+  span {
+    font-size: 1.5em;
+  }
+}
+
+.timerButton-container > i {
+  padding: 10px;
+}
