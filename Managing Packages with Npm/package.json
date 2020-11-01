@@ -1,0 +1,26 @@
+{
+  "author": "Jane Doe",
+  "description": "A project that does something awesome",
+  "keywords": [
+    "freecodecamp",
+    "related",
+    "words"
+  ],
+  "license": "MIT",
+  "version": "0.1.0",
+  "name": "fcc-learn-npm-package-json",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "4.4.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://idontknow/todo.git"
+  }
+}
