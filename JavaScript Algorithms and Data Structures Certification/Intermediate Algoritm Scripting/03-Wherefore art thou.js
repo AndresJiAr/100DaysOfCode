@@ -20,4 +20,22 @@ function whatIsInAName(collection, source) {
   }
   
   console.log(whatIsInAName([{ first: "Romeo", last: "Montague" }, { first: "Mercutio", last: null }, { first: "Tybalt", last: "Capulet" }], { last: "Capulet" }));
-  
+
+
+
+  whatIsInAName(arg1, arg2)
+  const arg1 = [{ first: "Romeo", last: "Montague" }, { first: "Mercutio", last: null }, { first: "Tybalt", last: "Capulet" }]
+  const arg2 = { last: "Capulet" }
+
+
+  function afodmkv(arg1, arg2) {
+
+    const [key, value] = Object.entries(arg2);
+    console.log({key, value})
+    return arg1.reduce((acc, item) => {
+
+      if(item[])
+
+    }, {})
+
+  }
